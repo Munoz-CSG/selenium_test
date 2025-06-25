@@ -1,0 +1,61 @@
+# 🐍 Entorno virtual (no debe versionarse)
+venv/
+.venv/
+
+# 🐍 Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧪 Logs de pruebas o temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 📸 Capturas de Selenium (si generas screenshots)
+screenshots/
+output/
+reports/
+
+# 🧪 Archivos de test temporales o caches de herramientas
+.cache/
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# 🐘 Bases de datos SQLite u otros archivos locales
+*.db
+*.sqlite3
+
+# 🧠 Configuración de entorno o secreto
+.env
+.env.*
+*.secret
+secrets.json
+
+# 🧑‍💻 Archivos de entorno de IDEs y editores
+.vscode/
+.idea/
+*.code-workspace
+
+# 📦 Dependencias descargadas o libs no versionadas
+*.egg-info/
+dist/
+build/
+
+# 🐧 Archivos específicos de Linux/WSL/macOS
+.DS_Store
+Thumbs.db
+
+# 💣 Instaladores o binarios
+*.exe
+*.msi
+*.zip
+*.tar.gz
+
+# 📁 Otros
+logs/
+node_modules/
